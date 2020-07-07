@@ -9,6 +9,7 @@ class TodoForm extends React.Component {
                     type="text" 
                     value={this.props.name} 
                     onChange={this.props.onChange} 
+                    placeholder="Enter your todo"
                 />
                 <button onClick={this.props.addTodo}>Add Todo</button>
                 <button onClick={this.props.clearCompleted}>Clear Completed</button>
